@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-python run_common_voice_flat.py \
+python run_common_voice.py \
     --model_name_or_path="facebook/wav2vec2-large-xlsr-53" \
     --dataset_config_name="id" \
     --output_dir=/workspace/output_models/wav2vec2-large-xlsr-indonesian \
